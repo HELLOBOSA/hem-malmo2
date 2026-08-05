@@ -101,7 +101,7 @@ footer a:hover{color:var(--bg)}
 .footer-bottom{padding-top:28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.82rem;color:rgba(250, 249, 247, .4)}
 @media(max-width:720px){.footer-top{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){.footer-top{grid-template-columns:1fr}.nav-links{display:none}}
-</style>
+.site-nav .lang{display:inline-flex;border:1px solid rgba(0,0,0,.18);border-radius:100px;overflow:hidden;font-size:12px;margin-left:14px;vertical-align:middle}.site-nav .lang button{padding:6px 11px;background:none;border:0;cursor:pointer;color:inherit;opacity:.6;letter-spacing:.05em}.site-nav .lang button[aria-pressed="true"]{background:currentColor;opacity:1}.site-nav .lang button[aria-pressed="true"]{color:#fff;background:#111}</style>
 </head>
 <body id="top">
 <nav class="site-nav">
@@ -113,7 +113,7 @@ footer a:hover{color:var(--bg)}
       <li><a href="../../#galleri" data-en="Gallery">Galleri</a></li>
       <li><a href="../" data-en="Blog">Blogg</a></li>
       <li><a class="nav-cta" href="../../#kontakt" data-en="Get a quote">Offert</a></li>
-    </ul>
+    </ul><div class="lang" role="group" aria-label="Språk / Language"><button data-lang="sv" aria-pressed="true">SV</button><button data-lang="en" aria-pressed="false">EN</button></div>
   </div>
 </nav>
 <section class="hero-article article-wrap">
@@ -289,5 +289,5 @@ var expires=Date.now()+CONSENT_DAYS*24*60*60*1000;writeConsentCookie(choice);try
 })();
 </script>
 <!-- END HEMREFORM MINIMAL COOKIE BANNER -->
-</body>
+<script>(function(){var LS='hemreform_lang';var bs=document.querySelectorAll('.lang [data-lang]');function setLang(l){var en=l==='en';document.documentElement.lang=en?'en':'sv';document.querySelectorAll('[data-en]').forEach(function(el){if(el.dataset.sv===undefined)el.dataset.sv=el.innerHTML;el.innerHTML=en?el.dataset.en:el.dataset.sv;});bs.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.lang===l));});try{localStorage.setItem(LS,l);}catch(e){}try{document.cookie=LS+'='+l+'; Max-Age=31536000; Path=/; Domain=.hemreform.se; SameSite=Lax';}catch(e){}}bs.forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang);});});var s='sv';try{s=localStorage.getItem(LS)||(document.cookie.match(/(?:^|; )hemreform_lang=([^;]*)/)||[])[1]||'sv';}catch(e){}if(s==='en')setLang('en');})();</script></body>
 </html>

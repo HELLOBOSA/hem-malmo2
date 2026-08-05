@@ -101,7 +101,7 @@ footer a:hover{color:var(--bg)}
 .footer-bottom{padding-top:28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.82rem;color:rgba(250, 249, 247, .4)}
 @media(max-width:720px){.footer-top{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){.footer-top{grid-template-columns:1fr}.nav-links{display:none}}
-</style>
+.fact-note{margin:40px 0 8px;padding:18px 20px;border:1px solid rgba(0,0,0,.12);font-size:.86rem;line-height:1.7;opacity:.85}.fact-note p{margin:0}.site-nav .lang{display:inline-flex;border:1px solid rgba(0,0,0,.18);border-radius:100px;overflow:hidden;font-size:12px;margin-left:14px;vertical-align:middle}.site-nav .lang button{padding:6px 11px;background:none;border:0;cursor:pointer;color:inherit;opacity:.6;letter-spacing:.05em}.site-nav .lang button[aria-pressed="true"]{background:currentColor;opacity:1}.site-nav .lang button[aria-pressed="true"]{color:#fff;background:#111}</style>
 </head>
 <body id="top">
 <nav class="site-nav">
@@ -113,7 +113,7 @@ footer a:hover{color:var(--bg)}
       <li><a href="../../#galleri" data-en="Gallery">Galleri</a></li>
       <li><a href="../" data-en="Blog">Blogg</a></li>
       <li><a class="nav-cta" href="../../#kontakt" data-en="Get a quote">Offert</a></li>
-    </ul>
+    </ul><div class="lang" role="group" aria-label="Språk / Language"><button data-lang="sv" aria-pressed="true">SV</button><button data-lang="en" aria-pressed="false">EN</button></div>
   </div>
 </nav>
 <main>
@@ -169,7 +169,7 @@ footer a:hover{color:var(--bg)}
     <h2 data-en="Hemreform as total contractor">Hemreform som totalentreprenör</h2>
     <p data-en="The most significant risk in a full apartment renovation is coordination failure. When different trades are booked separately by the homeowner, the risk of scheduling conflicts, trade interdependencies being ignored and no single person taking responsibility for the overall outcome is very high. An electrician who runs late delays the plasterer, who delays the floor layer, who delays the painter, and suddenly a 14-week project has become 20 weeks.">Den mest betydande risken vid en total lägenhetsrenovering är koordinationsfel. När olika hantverkargrupper bokas separat av bostadsägaren är risken för schemaläggningskonflikter, ignorerade hantverkarinterdependenser och att ingen enskild person tar ansvar för det övergripande resultatet mycket hög. En elektriker som är sen försenar muraren, som försenar golvläggaren, som försenar målaren – och plötsligt har ett 14-veckorsprojekt blivit 20 veckor.</p>
     <p data-en="As a total contractor (totalentreprenör), Hemreform Malmö provides a single point of contact and accountability for the entire renovation. Our project manager coordinates all trades, snickare, elektriker, VVS-montör, kakelläggare, målare, under a single contract with a single timeline and a single cost plan. Our clients do not need to manage individual trade relationships, resolve scheduling conflicts or chase multiple invoice streams.">Som totalentreprenör tillhandahåller Hemreform Malmö en enda kontaktpunkt och ansvarighet för hela renoveringen. Vår projektledare koordinerar alla hantverkare – snickare, elektriker, VVS-montör, kakelläggare, målare – under ett enda kontrakt med en enda tidsplan och ett enda kostnadsplan. Våra kunder behöver inte hantera individuella hantverkarrelationer, lösa schemaläggningskonflikter eller jaga flera fakturaströmmar.</p>
-    <p data-en="We offer fixed-price contracts for defined scopes of work, which means you know your total cost before any work begins. Our work carries a guarantee on both materials and workmanship. For international clients and Malmö's significant English-speaking community, including many people who have relocated from other countries for work or studies, our project manager is fully available in English throughout the entire project.">Vi erbjuder fastpriskontrakt för definierade arbetsomfång, vilket innebär att du vet din totalkostnad innan något arbete börjar. Vårt arbete bär garanti på både material och utförande. För internationella kunder och Malmös betydande engelsktalande gemenskap – inklusive många som har flyttat från andra länder för arbete eller studier – är vår projektledare helt tillgänglig på engelska under hela projektet.</p>
+    <p data-en="We offer fixed-price contracts for defined scopes of work, which means you know your total cost before any work begins. Our work carries a guarantee on both materials and workmanship. For international clients and Malmö's significant English-speaking community, including many people who have relocated from other countries for work or studies, our project manager is fully available in English throughout the entire project.">Vi erbjuder fastpriskontrakt för definierade arbetsomfång, vilket innebär att du vet din totalkostnad innan något arbete börjar. Ansvar för material och utförande regleras i avtalet för varje projekt. För internationella kunder och Malmös betydande engelsktalande gemenskap – inklusive många som har flyttat från andra länder för arbete eller studier – är vår projektledare helt tillgänglig på engelska under hela projektet.</p>
 
     <h2 data-en="Common mistakes in full renovations">Vanliga misstag vid totalrenovering</h2>
     <p data-en="A full apartment renovation is the largest financial decision most homeowners will make outside of purchasing the property itself. The following mistakes are among the most costly and the most preventable:">En total lägenhetsrenovering är det största ekonomiska beslutet de flesta bostadsägare kommer att fatta utanför köpet av fastigheten själv. Följande misstag är bland de dyraste och mest förebyggbara:</p>
@@ -188,7 +188,7 @@ footer a:hover{color:var(--bg)}
     </div>
 
   </div>
-</main>
+<div class="fact-note"><p data-en="Prices, fees and timings on this page are indicative and assume a normal project. Actual cost depends on scope, condition and material choices, and is assessed case by case. Permit fees and processing times are set by each municipality, and ROT deduction rules by Skatteverket. Check current figures with your municipality and with Skatteverket, and contact us for an assessment of your project.">Priser, avgifter och tidsangivelser på den här sidan är ungefärliga och utgår från normala projekt. Exakt kostnad beror på omfattning, skick och materialval, och bedöms från fall till fall. Bygglovsavgifter och handläggningstider fastställs av respektive kommun, och reglerna för ROT-avdrag av Skatteverket. Kontrollera aktuella uppgifter hos din kommun och hos Skatteverket, och kontakta oss för en bedömning av ditt projekt.</p></div></main>
 <footer class="footer">
   <div class="wrap">
     <div class="footer-top">
@@ -276,5 +276,5 @@ var expires=Date.now()+CONSENT_DAYS*24*60*60*1000;writeConsentCookie(choice);try
 })();
 </script>
 <!-- END HEMREFORM MINIMAL COOKIE BANNER -->
-</body>
+<script>(function(){var LS='hemreform_lang';var bs=document.querySelectorAll('.lang [data-lang]');function setLang(l){var en=l==='en';document.documentElement.lang=en?'en':'sv';document.querySelectorAll('[data-en]').forEach(function(el){if(el.dataset.sv===undefined)el.dataset.sv=el.innerHTML;el.innerHTML=en?el.dataset.en:el.dataset.sv;});bs.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.lang===l));});try{localStorage.setItem(LS,l);}catch(e){}try{document.cookie=LS+'='+l+'; Max-Age=31536000; Path=/; Domain=.hemreform.se; SameSite=Lax';}catch(e){}}bs.forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang);});});var s='sv';try{s=localStorage.getItem(LS)||(document.cookie.match(/(?:^|; )hemreform_lang=([^;]*)/)||[])[1]||'sv';}catch(e){}if(s==='en')setLang('en');})();</script></body>
 </html>
