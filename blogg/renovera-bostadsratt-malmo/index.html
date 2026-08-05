@@ -64,41 +64,41 @@
 }
 </script>
 <style>
-:root{--bg:#faf9f7;--bg-2:#f2f0ec;--text:#1a1917;--muted:#6b6860;--accent:#c84b2f;--accent-ink:#fff;--line:rgba(26,25,23,.12);--line-2:rgba(26,25,23,.22);--serif:'Lora',Georgia,serif;--sans:'Bricolage Grotesque','Inter',system-ui,sans-serif}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#faf9f7;--bg-2:#f2f0ec;--text:#1a1917;--muted:#6b6860;--accent:#c84b2f;--accent-ink:#fff;--line:rgba(26, 25, 23, .12);--line-2:rgba(26, 25, 23, .22);--serif:'Lora', Georgia, serif;--sans:'Bricolage Grotesque', 'Inter', system-ui, sans-serif}
+*, *::before, *::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:var(--sans);background:var(--bg);color:var(--text);line-height:1.6;font-size:1rem}
-.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,60px)}
-.article-wrap{max-width:740px;margin:0 auto;padding:0 clamp(20px,4vw,60px)}
-h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;letter-spacing:-.04em;line-height:1.05;margin-bottom:1.2rem}
-h2{font-size:clamp(1.4rem,3vw,2rem);font-weight:700;letter-spacing:-.03em;line-height:1.1;margin:2.4rem 0 .9rem}
-h3{font-size:clamp(1.1rem,2vw,1.4rem);font-weight:600;margin:1.8rem 0 .6rem}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(20px, 4vw, 60px)}
+.article-wrap{max-width:740px;margin:0 auto;padding:0 clamp(20px, 4vw, 60px)}
+h1{font-size:clamp(2rem, 5vw, 3.5rem);font-weight:700;letter-spacing:-.04em;line-height:1.05;margin-bottom:1.2rem}
+h2{font-size:clamp(1.4rem, 3vw, 2rem);font-weight:700;letter-spacing:-.03em;line-height:1.1;margin:2.4rem 0 .9rem}
+h3{font-size:clamp(1.1rem, 2vw, 1.4rem);font-weight:600;margin:1.8rem 0 .6rem}
 p{margin-bottom:1rem;line-height:1.7;color:var(--text)}
-ul,ol{margin:0 0 1rem 1.4rem}
+ul, ol{margin:0 0 1rem 1.4rem}
 li{margin-bottom:.4rem;line-height:1.6}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
-.hero-article{padding:clamp(80px,10vw,140px) 0 clamp(40px,6vw,80px);border-bottom:1px solid var(--line)}
+.hero-article{padding:clamp(80px, 10vw, 140px) 0 clamp(40px, 6vw, 80px);border-bottom:1px solid var(--line)}
 .article-meta{font-size:.85rem;color:var(--muted);margin-bottom:1.5rem;letter-spacing:.06em}
-.article-body{padding:clamp(40px,6vw,80px) 0}
-.cta-box{background:var(--bg-2);border:1px solid var(--line);border-radius:12px;padding:clamp(24px,4vw,48px);margin:3rem 0;text-align:center}
+.article-body{padding:clamp(40px, 6vw, 80px) 0}
+.cta-box{background:var(--bg-2);border:1px solid var(--line);border-radius:12px;padding:clamp(24px, 4vw, 48px);margin:3rem 0;text-align:center}
 .cta-box h3{margin-top:0}
 .btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:.75rem 1.8rem;border-radius:6px;font-weight:600;text-decoration:none;margin-top:1rem}
 .btn:hover{text-decoration:none;opacity:.9}
 nav.site-nav{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--line);padding:0}
-.nav-inner{max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,60px);height:64px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 clamp(20px, 4vw, 60px);height:64px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .brand{font-weight:700;font-size:1.1rem;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:8px;letter-spacing:-.02em}
 .brand sup{color:var(--accent);font-size:.6em}
-.nav-links{display:flex;gap:clamp(16px,2.5vw,32px);list-style:none}
+.nav-links{display:flex;gap:clamp(16px, 2.5vw, 32px);list-style:none}
 .nav-links a{color:var(--muted);font-size:.92rem;text-decoration:none}
 .nav-links a:hover{color:var(--text)}
 .nav-cta{background:var(--accent);color:var(--accent-ink)!important;padding:.45rem 1.1rem;border-radius:5px;font-size:.88rem!important;font-weight:600}
-footer.footer{background:var(--text);color:var(--bg);padding:clamp(48px,7vw,96px) 0 32px}
-footer a{color:rgba(250,249,247,.65);text-decoration:none;font-size:.9rem}
+footer.footer{background:var(--text);color:var(--bg);padding:clamp(48px, 7vw, 96px) 0 32px}
+footer a{color:rgba(250, 249, 247, .65);text-decoration:none;font-size:.9rem}
 footer a:hover{color:var(--bg)}
-.footer-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;padding-bottom:60px;border-bottom:1px solid rgba(250,249,247,.12)}
-.footer h4{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,249,247,.45);margin-bottom:18px}
+.footer-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;padding-bottom:60px;border-bottom:1px solid rgba(250, 249, 247, .12)}
+.footer h4{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250, 249, 247, .45);margin-bottom:18px}
 .footer ul{list-style:none;padding:0;display:grid;gap:11px}
-.footer-bottom{padding-top:28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.82rem;color:rgba(250,249,247,.4)}
+.footer-bottom{padding-top:28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.82rem;color:rgba(250, 249, 247, .4)}
 @media(max-width:720px){.footer-top{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){.footer-top{grid-template-columns:1fr}.nav-links{display:none}}
 </style>
@@ -123,21 +123,21 @@ footer a:hover{color:var(--bg)}
 </section>
 <div class="article-body article-wrap">
 <h2 data-en="What do you own in a bostadsrätt?">Vad äger du i en bostadsrätt?</h2>
-<p data-en="This is the most fundamental question for any bostadsrättsägare planning a renovation. In Sweden, when you buy a bostadsrätt you do not own the apartment itself — you own a nyttjanderätt (right of use) to the apartment, while the housing cooperative (BRF) owns the building.">Detta är den mest grundläggande frågan för alla bostadsrättsägare som planerar en renovering. I Sverige, när du köper en bostadsrätt äger du inte lägenheten i sig — du äger en nyttjanderätt till lägenheten, medan bostadsrättsföreningen (BRF) äger byggnaden.</p>
+<p data-en="This is the most fundamental question for any bostadsrättsägare planning a renovation. In Sweden, when you buy a bostadsrätt you do not own the apartment itself, you own a nyttjanderätt (right of use) to the apartment, while the housing cooperative (BRF) owns the building.">Detta är den mest grundläggande frågan för alla bostadsrättsägare som planerar en renovering. I Sverige, när du köper en bostadsrätt äger du inte lägenheten i sig, du äger en nyttjanderätt till lägenheten, medan bostadsrättsföreningen (BRF) äger byggnaden.</p>
 <p data-en="In practice this means the responsibilities are divided:">I praktiken innebär detta att ansvaret är uppdelat:</p>
 <ul>
-  <li data-en="Your responsibility: everything inside the walls — floor finishes, wall finishes, ceiling finishes, interior fittings, fixtures, pipes from the connection point inward, and all interior installations."><strong>Ditt ansvar:</strong> allt inne i väggarna — golvbeläggning, väggfinish, takfinish, inredning, armaturer, rör från anslutningspunkten inåt och alla inre installationer.</li>
+  <li data-en="Your responsibility: everything inside the walls, floor finishes, wall finishes, ceiling finishes, interior fittings, fixtures, pipes from the connection point inward, and all interior installations."><strong>Ditt ansvar:</strong> allt inne i väggarna, golvbeläggning, väggfinish, takfinish, inredning, armaturer, rör från anslutningspunkten inåt och alla inre installationer.</li>
   <li data-en="BRF's responsibility: structural elements, exterior walls, foundations, roof, common systems (main water and drain pipes, electrical backbone, ventilation ducts in the building fabric)."><strong>BRF:s ansvar:</strong> konstruktionselement, ytterväggar, grundläggning, tak, gemensamma system (huvudvatten- och avloppsrör, elektriskt stamnät, ventilationskanaler i byggnadsstommen).</li>
 </ul>
 <p data-en="This division is defined in your BRF's stadgar (articles of association). The exact boundary can vary between different BRF associations. Always read your stadgar before starting any renovation planning.">Denna uppdelning definieras i din BRF:s stadgar. Den exakta gränsen kan variera mellan olika BRF-föreningar. Läs alltid dina stadgar innan du börjar planera renoveringen.</p>
 
 <h2 data-en="What can you do without permission?">Vad får du göra utan tillstånd?</h2>
-<p data-en="For many common renovation tasks inside your bostadsrätt, you do not need any approval — neither from the BRF nor from the municipality. These works are generally considered normal maintenance and owner improvements:">För många vanliga renoveringsarbeten inuti din bostadsrätt behöver du inget godkännande — varken från BRF eller från kommunen. Dessa arbeten anses i allmänhet vara normalt underhåll och ägarförbättringar:</p>
+<p data-en="For many common renovation tasks inside your bostadsrätt, you do not need any approval, neither from the BRF nor from the municipality. These works are generally considered normal maintenance and owner improvements:">För många vanliga renoveringsarbeten inuti din bostadsrätt behöver du inget godkännande, varken från BRF eller från kommunen. Dessa arbeten anses i allmänhet vara normalt underhåll och ägarförbättringar:</p>
 <ul>
   <li data-en="Paint walls and ceilings">Måla väggar och tak</li>
   <li data-en="Hang new wallpaper">Hänga ny tapet</li>
   <li data-en="Replace kitchen cabinet fronts (without altering plumbing or cabinet boxes)">Byta köksluckor (utan att ändra rördragning eller skåpstommar)</li>
-  <li data-en="Replace floor covering — parquet, vinyl, tiles — if not altering the structural floor underneath">Byta golvbeläggning — parkett, vinyl, kakel — om inte konstruktionsgolvet ändras</li>
+  <li data-en="Replace floor covering, parquet, vinyl, tiles, if not altering the structural floor underneath">Byta golvbeläggning, parkett, vinyl, kakel, om inte konstruktionsgolvet ändras</li>
   <li data-en="Replace light fixtures">Byta armaturer</li>
   <li data-en="Replace toilet, basin or shower fittings with the same type in the same location (like-for-like replacement)">Byta toalett, handfat eller duschblandare mot samma typ på samma plats (likadan ersättning)</li>
   <li data-en="Minor repairs and standard maintenance">Mindre reparationer och vanligt underhåll</li>
@@ -148,28 +148,28 @@ footer a:hover{color:var(--bg)}
 <p data-en="Many renovation measures that go beyond simple maintenance require written approval from your BRF board before you can start. In Malmö, the following works consistently require a styrelsebesked:">Många renoveringsåtgärder som går bortom enkelt underhåll kräver skriftligt godkännande från din BRF-styrelse innan du kan börja. I Malmö kräver följande arbeten konsekvent styrelsebesked:</p>
 <ul>
   <li data-en="Rivning av vägg (demolition of walls): even non-load-bearing walls require BRF approval in most associations, because they can affect sound insulation and fire separation throughout the building."><strong>Rivning av vägg:</strong> även icke-bärande väggar kräver BRF-godkännande i de flesta föreningar, eftersom de kan påverka ljudisolering och brandskydd i hela byggnaden.</li>
-  <li data-en="All VVS changes: moving pipes, adding a new wet room, changing drain routes — all require formal approval and certified contractors."><strong>Alla VVS-ändringar:</strong> att flytta rör, lägga till nytt våtutrymme, ändra avloppsdragning — allt kräver formellt godkännande och certifierade hantverkare.</li>
+  <li data-en="All VVS changes: moving pipes, adding a new wet room, changing drain routes, all require formal approval and certified contractors."><strong>Alla VVS-ändringar:</strong> att flytta rör, lägga till nytt våtutrymme, ändra avloppsdragning, allt kräver formellt godkännande och certifierade hantverkare.</li>
   <li data-en="Electrical changes beyond simple fixture replacement: installing new circuits, moving distribution boards, adding floor heating thermostats."><strong>Eländringar</strong> bortom enkelt armaturbyte: installera nya kretsar, flytta elcentraler, lägga till golvvärmetermostater.</li>
   <li data-en="Adding floor heating: almost universally requires BRF approval due to the impact on the building's heat system."><strong>Lägga till golvvärme:</strong> kräver nästan alltid BRF-godkännande på grund av påverkan på byggnadens värmesystem.</li>
   <li data-en="Changing ventilation: including adding or relocating kitchen fans and bathroom extraction."><strong>Ändring av ventilation:</strong> inklusive att lägga till eller flytta köksfläktar och badrumsfrånluft.</li>
-  <li data-en="Some BRF associations even require approval for painting the front door — check your rules."><strong>I vissa föreningar:</strong> till och med att måla ytterdörren kräver godkännande — kontrollera dina regler.</li>
+  <li data-en="Some BRF associations even require approval for painting the front door, check your rules."><strong>I vissa föreningar:</strong> till och med att måla ytterdörren kräver godkännande, kontrollera dina regler.</li>
 </ul>
 <p data-en="For HSB Malmö managed properties: submit your renovation request with drawings and contractor information to HSB Malmö's technical department. They will review and respond typically within 2–4 weeks.">För HSB Malmö-förvaltade fastigheter: lämna in din renoveringsansökan med ritningar och hantverkarinformation till HSB Malmös tekniska avdelning. De granskar och svarar vanligtvis inom 2–4 veckor.</p>
 
 <h2 data-en="Moisture damage and legal liability">Fuktskador och juridiskt ansvar</h2>
-<p data-en="One of the most important and most misunderstood aspects of bostadsrätt renovation is moisture damage liability. Many owners believe the BRF's insurance will cover all water damage — this is not correct:">En av de viktigaste och mest missförstådda aspekterna av bostadsrättsrenovering är fuktskadeansvar. Många ägare tror att BRF:s försäkring täcker alla vattenskador — det stämmer inte:</p>
+<p data-en="One of the most important and most misunderstood aspects of bostadsrätt renovation is moisture damage liability. Many owners believe the BRF's insurance will cover all water damage, this is not correct:">En av de viktigaste och mest missförstådda aspekterna av bostadsrättsrenovering är fuktskadeansvar. Många ägare tror att BRF:s försäkring täcker alla vattenskador, det stämmer inte:</p>
 <ul>
-  <li data-en="If you renovated a wet room without proper tätskikt (waterproofing membrane) or used an uncertified contractor, you are personally liable for ALL resulting damage — including damage to neighbours below, adjacent apartments, and common building structures."><strong>Personligt ansvar:</strong> om du renoverade ett våtutrymme utan korrekt tätskikt eller använde ocertifierad hantverkare är du personligen ansvarig för ALL uppkommen skada — inklusive skada på grannar nedanför, intilliggande lägenheter och gemensamma byggnadskonstruktioner.</li>
-  <li data-en="In Malmö, water table levels are high in certain areas — particularly Limhamn near the sea and parts of Husie. Older buildings in these areas can have moisture issues in ground-floor wet rooms even without renovation faults."><strong>Malmö-specifikt:</strong> grundvattennivåerna är höga i vissa områden — särskilt Limhamn nära havet och delar av Husie. Äldre byggnader i dessa områden kan ha fuktproblem i markplansvåtrum även utan renoveringsfel.</li>
+  <li data-en="If you renovated a wet room without proper tätskikt (waterproofing membrane) or used an uncertified contractor, you are personally liable for ALL resulting damage, including damage to neighbours below, adjacent apartments, and common building structures."><strong>Personligt ansvar:</strong> om du renoverade ett våtutrymme utan korrekt tätskikt eller använde ocertifierad hantverkare är du personligen ansvarig för ALL uppkommen skada, inklusive skada på grannar nedanför, intilliggande lägenheter och gemensamma byggnadskonstruktioner.</li>
+  <li data-en="In Malmö, water table levels are high in certain areas, particularly Limhamn near the sea and parts of Husie. Older buildings in these areas can have moisture issues in ground-floor wet rooms even without renovation faults."><strong>Malmö-specifikt:</strong> grundvattennivåerna är höga i vissa områden, särskilt Limhamn nära havet och delar av Husie. Äldre byggnader i dessa områden kan ha fuktproblem i markplansvåtrum även utan renoveringsfel.</li>
   <li data-en="Always use a BKR-certified våtrumsinstallatör (certified wet room installer) and ensure you receive a tätskiktsintyg (waterproofing certificate) after completion."><strong>Certifierad installatör:</strong> använd alltid en BKR-certifierad våtrumsinstallatör och säkerställ att du får ett tätskiktsintyg efter avslutat arbete.</li>
-  <li data-en="Keep the tätskiktsintyg for the lifetime of your ownership — you will need to present it when selling the apartment. Buyers' solicitors and banks increasingly require it."><strong>Spara intyget:</strong> behåll tätskiktsintyget under hela din ägarperiod — du måste uppvisa det vid försäljning. Köpares juridiska rådgivare och banker kräver det allt oftare.</li>
+  <li data-en="Keep the tätskiktsintyg for the lifetime of your ownership, you will need to present it when selling the apartment. Buyers' solicitors and banks increasingly require it."><strong>Spara intyget:</strong> behåll tätskiktsintyget under hela din ägarperiod, du måste uppvisa det vid försäljning. Köpares juridiska rådgivare och banker kräver det allt oftare.</li>
 </ul>
 
 <h2 data-en="The process: from idea to approved">Processen: från idé till godkänt</h2>
 <p data-en="Here is the complete step-by-step process for getting a bostadsrätt renovation approved and completed in Malmö:">Här är den fullständiga steg-för-steg-processen för att få en bostadsrättsrenovering godkänd och genomförd i Malmö:</p>
 <ol>
   <li data-en="Read your BRF's stadgar (articles of association) and ordningsregler (house rules) carefully. These documents define what you can and cannot do.">Läs din BRF:s stadgar och ordningsregler noggrant. Dessa dokument definierar vad du kan och inte kan göra.</li>
-  <li data-en="Contact your BRF manager — HSB Malmö, MKB, Riksbyggen, or the board directly if it is a self-managed association — and ask about their renovation approval process.">Kontakta din BRF-förvaltare — HSB Malmö, MKB, Riksbyggen, eller styrelsen direkt om det är en självförvaltad förening — och fråga om deras renoveringsgodkännandeprocess.</li>
+  <li data-en="Contact your BRF manager, HSB Malmö, MKB, Riksbyggen, or the board directly if it is a self-managed association, and ask about their renovation approval process.">Kontakta din BRF-förvaltare, HSB Malmö, MKB, Riksbyggen, eller styrelsen direkt om det är en självförvaltad förening, och fråga om deras renoveringsgodkännandeprocess.</li>
   <li data-en="Submit your renovation request with drawings, contractor information (including certifications), and a proposed timeline.">Lämna in din renoveringsansökan med ritningar, hantverkarinformation (inklusive certifieringar) och en föreslagen tidplan.</li>
   <li data-en="Wait for written approval (styrelsebesked). Typical processing time in Malmö is 2–4 weeks, longer during summer holidays.">Vänta på skriftligt godkännande (styrelsebesked). Typisk handläggningstid i Malmö är 2–4 veckor, längre under sommarledigheten.</li>
   <li data-en="NEVER start work before receiving written approval. Starting before approval can result in a restoration order and personal liability for all costs.">Börja ALDRIG arbeta innan du fått skriftligt godkännande. Att börja innan godkännande kan resultera i ett återställningsföreläggande och personligt ansvar för alla kostnader.</li>
@@ -182,7 +182,7 @@ footer a:hover{color:var(--bg)}
 <ul>
   <li data-en="30% deduction on labor costs (not materials)">30% avdrag på arbetskostnader (inte material)</li>
   <li data-en="Maximum 50 000 kr per person per year (2026)">Max 50 000 kr per person och år (2026)</li>
-  <li data-en="Both spouses or partners registered at the address can each claim up to 50 000 kr — giving a household maximum of 100 000 kr ROT per year">Båda makar eller partners folkbokförda på adressen kan var och en göra anspråk på upp till 50 000 kr — vilket ger ett hushållsmaximum på 100 000 kr ROT per år</li>
+  <li data-en="Both spouses or partners registered at the address can each claim up to 50 000 kr, giving a household maximum of 100 000 kr ROT per year">Båda makar eller partners folkbokförda på adressen kan var och en göra anspråk på upp till 50 000 kr, vilket ger ett hushållsmaximum på 100 000 kr ROT per år</li>
   <li data-en="Work on common areas of the BRF (stairs, entrance, laundry room) can only be claimed by the BRF as an organisation, not by individual apartment owners">Arbete i BRF:s gemensamma utrymmen (trappor, entré, tvättstuga) kan bara göras anspråk på av BRF som organisation, inte av enskilda lägenhetsägare</li>
 </ul>
 
@@ -192,13 +192,13 @@ footer a:hover{color:var(--bg)}
   <li data-en="HSB Malmö: one of the largest BRF managers in Malmö, with a standardised application process. Submit renovation applications via hsb.se/malmo or directly to the local HSB technical department."><strong>HSB Malmö:</strong> en av de största BRF-förvaltarna i Malmö, med en standardiserad ansökningsprocess. Lämna in renoveringsansökningar via hsb.se/malmo eller direkt till den lokala HSB:s tekniska avdelning.</li>
   <li data-en="MKB Fastighets AB: Malmö's municipal housing company. MKB primarily manages hyresrätter (rental apartments), but some bostadsrätter exist in their portfolio."><strong>MKB Fastighets AB:</strong> Malmös kommunala bostadsbolag. MKB förvaltar främst hyresrätter, men en del bostadsrätter finns i deras portfölj.</li>
   <li data-en="Riksbyggen: another major manager with their own technical department. Contact Riksbyggen's förvaltningskontor for your property's specific rules."><strong>Riksbyggen:</strong> en annan stor förvaltare med en egen teknisk avdelning. Kontakta Riksbyggens förvaltningskontor för din fastighets specifika regler.</li>
-  <li data-en="Smaller independent BRF associations: contact the board member responsible for technical matters directly. Approval times can vary significantly — from 1 week to several months for complex projects."><strong>Mindre självständiga BRF-er:</strong> kontakta den styrelseledamot som ansvarar för tekniska frågor direkt. Godkännandetiderna kan variera avsevärt — från 1 vecka till flera månader för komplexa projekt.</li>
+  <li data-en="Smaller independent BRF associations: contact the board member responsible for technical matters directly. Approval times can vary significantly, from 1 week to several months for complex projects."><strong>Mindre självständiga BRF-er:</strong> kontakta den styrelseledamot som ansvarar för tekniska frågor direkt. Godkännandetiderna kan variera avsevärt, från 1 vecka till flera månader för komplexa projekt.</li>
 </ul>
 <p data-en="Typical approval time in Malmö is 2–6 weeks depending on project complexity and time of year. Summer (June–August) and Christmas periods see significantly longer processing times as board members are on holiday.">Typisk godkännandetid i Malmö är 2–6 veckor beroende på projektets komplexitet och tid på året. Under sommaren (juni–augusti) och julen ser handläggningstiderna märkbart längre ut då styrelseledamöter är på semester.</p>
 
 <div class="cta-box">
   <h3 data-en="Planning a bostadsrätt renovation in Malmö?">Planerar du en bostadsrättsrenovering i Malmö?</h3>
-  <p data-en="Hemreform handles the entire process for you — from BRF application to certified installation and documentation. Contact us for a free consultation.">Hemreform hanterar hela processen åt dig — från BRF-ansökan till certifierad installation och dokumentation. Kontakta oss för en kostnadsfri konsultation.</p>
+  <p data-en="Hemreform handles the entire process for you, from BRF application to certified installation and documentation. Contact us for a free consultation.">Hemreform hanterar hela processen åt dig, från BRF-ansökan till certifierad installation och dokumentation. Kontakta oss för en kostnadsfri konsultation.</p>
   <a class="btn" href="../../#kontakt" data-en="Get a free consultation">Få en kostnadsfri konsultation</a>
 </div>
 </div>
@@ -261,31 +261,31 @@ footer a:hover{color:var(--bg)}
   var COOKIE_DOMAIN='.hemreform.se';
   var CONSENT_DAYS=180;
   var copy={
-    sv:{title:'Vi använder cookies',more:'Mer info',reject:'Avvisa',accept:'Acceptera',legalUrl:'https://hemreform.se/legal/'},
-    en:{title:'We use cookies',more:'More info',reject:'Reject',accept:'Accept',legalUrl:'https://hemreform.se/legal/'}
+    sv:{title:'Vi använder cookies', more:'Mer info', reject:'Avvisa', accept:'Acceptera', legalUrl:'https://hemreform.se/legal/'},
+    en:{title:'We use cookies', more:'More info', reject:'Reject', accept:'Accept', legalUrl:'https://hemreform.se/legal/'}
   };
-  var css="#wb-cookie-banner{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:2147483647;width:max-content;max-width:calc(100vw - 32px);display:flex;align-items:center;justify-content:center;gap:14px;padding:8px 10px 8px 16px;border:1px solid rgba(255,255,255,.18);background:rgba(40,36,32,.28);color:#fff;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-radius:999px;box-shadow:0 18px 45px rgba(0,0,0,.16);font-family:inherit}#wb-cookie-banner[hidden]{display:none}#wb-cookie-banner .wb-cookie-copy,#wb-cookie-banner .wb-cookie-actions{display:flex;align-items:center;gap:8px}#wb-cookie-banner .wb-cookie-title,#wb-cookie-banner .wb-cookie-btn{font-size:.6rem;font-weight:300;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}#wb-cookie-banner .wb-cookie-link{font-size:.5rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.72);text-decoration:underline;text-underline-offset:4px;white-space:nowrap}#wb-cookie-banner .wb-cookie-link:hover{color:#fff}#wb-cookie-banner .wb-cookie-btn{border:0;background:transparent;color:rgba(255,255,255,.72);padding:6px 9px;border-radius:999px;font-family:inherit;line-height:1;cursor:pointer;appearance:none;-webkit-appearance:none;transition:color .25s,background .25s}#wb-cookie-banner .wb-cookie-btn:hover{color:#fff}#wb-cookie-banner .wb-cookie-btn.accept{background:#fff;color:#111;padding:6px 11px}#wb-cookie-banner .wb-cookie-btn.accept:hover{background:rgba(255,255,255,.82);color:#111}@media(max-width:520px){#wb-cookie-banner{bottom:16px;max-width:calc(100vw - 20px);gap:7px;padding:8px 9px 8px 12px}#wb-cookie-banner .wb-cookie-copy,#wb-cookie-banner .wb-cookie-actions{gap:6px}#wb-cookie-banner .wb-cookie-title,#wb-cookie-banner .wb-cookie-btn{font-size:.5rem;letter-spacing:.12em}#wb-cookie-banner .wb-cookie-link{font-size:.46rem;letter-spacing:.12em}#wb-cookie-banner .wb-cookie-btn{padding:6px 7px}#wb-cookie-banner .wb-cookie-btn.accept{padding:6px 9px}}@media(max-width:380px){#wb-cookie-banner{flex-wrap:wrap;border-radius:18px;row-gap:8px}#wb-cookie-banner .wb-cookie-copy,#wb-cookie-banner .wb-cookie-actions{justify-content:center}}";
+  var css="#wb-cookie-banner{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:2147483647;width:max-content;max-width:calc(100vw - 32px);display:flex;align-items:center;justify-content:center;gap:14px;padding:8px 10px 8px 16px;border:1px solid rgba(255, 255, 255, .18);background:rgba(40, 36, 32, .28);color:#fff;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-radius:999px;box-shadow:0 18px 45px rgba(0, 0, 0, .16);font-family:inherit}#wb-cookie-banner[hidden]{display:none}#wb-cookie-banner .wb-cookie-copy, #wb-cookie-banner .wb-cookie-actions{display:flex;align-items:center;gap:8px}#wb-cookie-banner .wb-cookie-title, #wb-cookie-banner .wb-cookie-btn{font-size:.6rem;font-weight:300;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}#wb-cookie-banner .wb-cookie-link{font-size:.5rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255, 255, 255, .72);text-decoration:underline;text-underline-offset:4px;white-space:nowrap}#wb-cookie-banner .wb-cookie-link:hover{color:#fff}#wb-cookie-banner .wb-cookie-btn{border:0;background:transparent;color:rgba(255, 255, 255, .72);padding:6px 9px;border-radius:999px;font-family:inherit;line-height:1;cursor:pointer;appearance:none;-webkit-appearance:none;transition:color .25s, background .25s}#wb-cookie-banner .wb-cookie-btn:hover{color:#fff}#wb-cookie-banner .wb-cookie-btn.accept{background:#fff;color:#111;padding:6px 11px}#wb-cookie-banner .wb-cookie-btn.accept:hover{background:rgba(255, 255, 255, .82);color:#111}@media(max-width:520px){#wb-cookie-banner{bottom:16px;max-width:calc(100vw - 20px);gap:7px;padding:8px 9px 8px 12px}#wb-cookie-banner .wb-cookie-copy, #wb-cookie-banner .wb-cookie-actions{gap:6px}#wb-cookie-banner .wb-cookie-title, #wb-cookie-banner .wb-cookie-btn{font-size:.5rem;letter-spacing:.12em}#wb-cookie-banner .wb-cookie-link{font-size:.46rem;letter-spacing:.12em}#wb-cookie-banner .wb-cookie-btn{padding:6px 7px}#wb-cookie-banner .wb-cookie-btn.accept{padding:6px 9px}}@media(max-width:380px){#wb-cookie-banner{flex-wrap:wrap;border-radius:18px;row-gap:8px}#wb-cookie-banner .wb-cookie-copy, #wb-cookie-banner .wb-cookie-actions{justify-content:center}}";
   function getLang(){return (document.documentElement.lang||'sv').toLowerCase().indexOf('en')===0?'en':'sv'}
   function cookieDomainAttr(){var host=window.location.hostname;if(host==='hemreform.se'||host.slice(-13)==='.hemreform.se')return '; Domain='+COOKIE_DOMAIN;return ''}
-  function readCookie(name){return document.cookie.split(';').map(function(cookie){return cookie.trim()}).filter(Boolean).reduce(function(value,cookie){var eq=cookie.indexOf('=');var key=eq>-1?cookie.slice(0,eq):cookie;if(key===name)return decodeURIComponent(eq>-1?cookie.slice(eq+1):'');return value},null)}
+  function readCookie(name){return document.cookie.split(';').map(function(cookie){return cookie.trim()}).filter(Boolean).reduce(function(value, cookie){var eq=cookie.indexOf('=');var key=eq>-1?cookie.slice(0, eq):cookie;if(key===name)return decodeURIComponent(eq>-1?cookie.slice(eq+1):'');return value}, null)}
   function writeConsentCookie(choice){var maxAge=CONSENT_DAYS*24*60*60;var secure=window.location.protocol==='https:'?'; Secure':'';document.cookie=CONSENT_KEY+'='+encodeURIComponent(choice)+'; Max-Age='+maxAge+'; Path=/'+cookieDomainAttr()+'; SameSite=Lax'+secure}
   function readConsent(){var cookieChoice=readCookie(CONSENT_KEY);if(cookieChoice)return cookieChoice;if(readCookie(LEGACY_COOKIE_KEY))return 'accept';try{var raw=localStorage.getItem(CONSENT_KEY);if(!raw)return null;var data=JSON.parse(raw);if(!data.expires||data.expires<Date.now()){localStorage.removeItem(CONSENT_KEY);return null}if(data.choice)writeConsentCookie(data.choice);return data.choice||null}catch(e){localStorage.removeItem(CONSENT_KEY);return null}}
   function saveConsent(choice){
     /* consent update wired: tell Google in the same page view, not on the next load */
     try{ if(typeof gtag==='function'){ var g = choice==='accept' ? 'granted':'denied';
-      gtag('consent','update',{ad_storage:g,ad_user_data:g,ad_personalization:g,analytics_storage:g}); } }catch(e){}
-var expires=Date.now()+CONSENT_DAYS*24*60*60*1000;writeConsentCookie(choice);try{localStorage.setItem(CONSENT_KEY,JSON.stringify({choice:choice,expires:expires}))}catch(e){}}
+      gtag('consent', 'update', {ad_storage:g, ad_user_data:g, ad_personalization:g, analytics_storage:g}); } }catch(e){}
+var expires=Date.now()+CONSENT_DAYS*24*60*60*1000;writeConsentCookie(choice);try{localStorage.setItem(CONSENT_KEY, JSON.stringify({choice:choice, expires:expires}))}catch(e){}}
   function applyCopy(banner){var lang=getLang();var t=copy[lang]||copy.sv;var title=banner.querySelector('.wb-cookie-title');var link=banner.querySelector('.wb-cookie-link');var reject=banner.querySelector('[data-choice="reject"]');var accept=banner.querySelector('[data-choice="accept"]');if(title)title.textContent=t.title;if(link){link.textContent=t.more;link.href=t.legalUrl}if(reject)reject.textContent=t.reject;if(accept)accept.textContent=t.accept}
   function initBanner(){
     if(readConsent())return;
     var oldBanner=document.getElementById('cookieConsentBanner');if(oldBanner)oldBanner.remove();
     if(!document.getElementById('wb-cookie-banner-style')){var style=document.createElement('style');style.id='wb-cookie-banner-style';style.textContent=css;document.head.appendChild(style)}
-    var banner=document.createElement('div');banner.id='wb-cookie-banner';banner.setAttribute('role','region');banner.setAttribute('aria-label','Cookie notice');banner.innerHTML='<div class="wb-cookie-copy"><span class="wb-cookie-title"></span><a class="wb-cookie-link" href="https://hemreform.se/legal/" target="_blank" rel="noopener noreferrer"></a></div><div class="wb-cookie-actions"><button class="wb-cookie-btn" type="button" data-choice="reject"></button><button class="wb-cookie-btn accept" type="button" data-choice="accept"></button></div>';
+    var banner=document.createElement('div');banner.id='wb-cookie-banner';banner.setAttribute('role', 'region');banner.setAttribute('aria-label', 'Cookie notice');banner.innerHTML='<div class="wb-cookie-copy"><span class="wb-cookie-title"></span><a class="wb-cookie-link" href="https://hemreform.se/legal/" target="_blank" rel="noopener noreferrer"></a></div><div class="wb-cookie-actions"><button class="wb-cookie-btn" type="button" data-choice="reject"></button><button class="wb-cookie-btn accept" type="button" data-choice="accept"></button></div>';
     document.body.appendChild(banner);applyCopy(banner);
-    banner.querySelectorAll('[data-choice]').forEach(function(button){button.addEventListener('click',function(){saveConsent(button.getAttribute('data-choice'));banner.hidden=true})});
-    document.querySelectorAll('.lang [data-lang]').forEach(function(button){button.addEventListener('click',function(){setTimeout(function(){applyCopy(banner)},0)})});
+    banner.querySelectorAll('[data-choice]').forEach(function(button){button.addEventListener('click', function(){saveConsent(button.getAttribute('data-choice'));banner.hidden=true})});
+    document.querySelectorAll('.lang [data-lang]').forEach(function(button){button.addEventListener('click', function(){setTimeout(function(){applyCopy(banner)}, 0)})});
   }
-  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',initBanner)}else{initBanner()}
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded', initBanner)}else{initBanner()}
 })();
 </script>
 <!-- END HEMREFORM MINIMAL COOKIE BANNER -->
